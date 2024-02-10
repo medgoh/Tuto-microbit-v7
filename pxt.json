@@ -1,6 +1,6 @@
 {
     "name": "microbit-tutorials",
-    "version": "1.0.0",
+    "version": "4.1.1",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -12,12 +12,16 @@
         "main.ts",
 	"recording.ts",
         "README.md",
-"drole.md",
-	"niveau_bulle.md","niveau_bulle_light.md"
+        "drole.md",
+	"niveau_bulle.md"
     ],
     "testFiles": [
         "test.ts"
     ],
+    "targetVersions": {
+        "target": "3.0.0",
+        "targetId": "microbit"
+    },
     "supportedTargets": [
         "microbit"
     ],
